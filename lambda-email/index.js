@@ -31,7 +31,7 @@ exports.handler = function (event, context, callback) {
                 // bcc: Any BCC address you want here in an array,
                 attachments: [
                     {
-                        filename: "An Attachment.pdf",
+                        filename: "myfile.csv",
                         content: datafile.Body
                     }
                 ]
